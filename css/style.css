@@ -1,0 +1,28 @@
+html, body {    
+    margin:0;
+}
+
+header{ 
+    background-color:brown;
+    display: flex; /* coloca, por padrão, os itens ordenados um ao lado do outro.*/
+    gap: 10px; /* define distância entre os itens */
+    align-items: center; /* alinha os itens no centro vertical */
+    height: 30px; /* define o tamanho da header */
+}
+
+header h1{
+    margin:0;
+    color:aliceblue;
+    font-size: 25px; /* muda o tamanho da fonte */
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 20px; /* a margin é definida por uma "técnica do relógio" imagine um relógio girando no sentido horário onde o 12 é top (primeiro zero), 3 é left (segundo zero), 6 é down (terceiro zero) e 9 é right (último zero) */ 
+}
+
+header span { 
+    color:aliceblue;
+    margin: 0 20px 0 auto;
+}
