@@ -1,6 +1,7 @@
 html, body {    
     margin:0;
     font-family:-apple-system,"BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    background-image: url("../img/bread.jpg"); background-size: 120%;
 }
 
 header{ 
@@ -29,6 +30,75 @@ header span {
     margin: 0 20px 0 auto;  
 }
 
-body {  
-    background-image: url(https://e0.pxfuel.com/wallpapers/705/567/desktop-wallpaper-dog-background-funny-dog-anime-dog-and-fall-dog-cute-dog.jpg);
+main {
+    display:flex;
+    height:1000px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20;
+}
+
+#sidebar-right, #sidebar-left {
+    width: 200px;
+    background: wheat;
+    height: 1000px;
+}
+
+#content {
+    width: 900px;
+    background: white;
+    height: 960px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;  
+    justify-content: center;
+    align-items: center;    
+    background: brown;
+    padding: 20px;
+}
+
+#exer1 {
+    background-color:brown;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#exer2 {
+    background-color:brown;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.rightAUTO {
+    margin-right: auto;
+}
+
+#exer3 {
+    background-color:brown;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.bloco {
+    background: black;
+    width: 70px;
+    height: 70px;
 }
