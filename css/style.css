@@ -1,5 +1,6 @@
 html, body {    
     margin:0;
+    font-family:-apple-system,"BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
 header{ 
@@ -8,12 +9,13 @@ header{
     gap: 10px; /* define distância entre os itens */
     align-items: center; /* alinha os itens no centro vertical */
     height: 30px; /* define o tamanho da header */
+    /*justify-content: space-around; e justify-content:space-between - cria espaços entre os objetos*/
 }
 
 header h1{
     margin:0;
     color:aliceblue;
-    font-size: 25px; /* muda o tamanho da fonte */
+    font-size: 20px; /* muda o tamanho da fonte */
 }
 
 header img {
@@ -24,5 +26,9 @@ header img {
 
 header span { 
     color:aliceblue;
-    margin: 0 20px 0 auto;
+    margin: 0 20px 0 auto;  
+}
+
+body {  
+    background-image: url(https://e0.pxfuel.com/wallpapers/705/567/desktop-wallpaper-dog-background-funny-dog-anime-dog-and-fall-dog-cute-dog.jpg);
 }
