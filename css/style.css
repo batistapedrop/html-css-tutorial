@@ -1,104 +1,128 @@
-html, body {    
-    margin:0;
-    font-family:-apple-system,"BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    background-image: url("../img/bread.jpg"); background-size: 120%;
+html, body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
-header{ 
-    background-color:brown;
-    display: flex; /* coloca, por padrão, os itens ordenados um ao lado do outro.*/
-    gap: 10px; /* define distância entre os itens */
-    align-items: center; /* alinha os itens no centro vertical */
-    height: 30px; /* define o tamanho da header */
-    /*justify-content: space-around; e justify-content:space-between - cria espaços entre os objetos*/
+a {
+    text-decoration: none;
+}
+
+header a.logotype{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:white;
+    margin-left: 20px;
+}
+
+header{
+    background: #000;
+    color: #fff;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
 }
 
 header h1{
-    margin:0;
-    color:aliceblue;
-    font-size: 20px; /* muda o tamanho da fonte */
+    margin: 0;
+    font-size: 20px;
 }
 
 header img {
-    width: 25px;
-    height: 25px;
-    margin: 0 0 0 20px; /* a margin é definida por uma "técnica do relógio" imagine um relógio girando no sentido horário onde o 12 é top (primeiro zero), 3 é left (segundo zero), 6 é down (terceiro zero) e 9 é right (último zero) */ 
+    width: 30px;
+    height: 30px;
+}
+header span{
+    margin: 0 0 0 auto;
 }
 
-header span { 
-    color:aliceblue;
-    margin: 0 20px 0 auto;  
+#exec1 {
+    background: #CCC;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bloco {
+    background: #000;
+    width: 60px;
+    height: 60px;   
+}
+
+.rightauto{
+    margin-right: auto;
 }
 
 main {
-    display:flex;
-    height:1000px;
+    display: flex;
     width: 1000px;
     margin: 0 auto;
-    padding: 20;
+    gap: 20px;
 }
 
 #sidebar-right, #sidebar-left {
     width: 200px;
-    background: wheat;
-    height: 1000px;
+    background: #CCC;
+    height: 500px;
 }
 
 #content {
-    width: 900px;
-    background: white;
-    height: 960px;
+    width: 520px;
+    background: #f1f1f1;
+    height: 500px;
     padding: 20px;
-    align-items: center;
+}
+
+footer{
+    background: #CCC;
+    height: 200px;
+    display: flex;
     justify-content: center;
-}
-
-footer {
-    display: flex;  
-    justify-content: center;
-    align-items: center;    
-    background: brown;
-    padding: 20px;
-}
-
-#exer1 {
-    background-color:brown;
-    width: 400px;
-    height: 200px;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-#exer2 {
-    background-color:brown;
-    width: 400px;
-    height: 200px;
-    display: flex;
-    gap: 50px;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
 }
 
-.rightAUTO {
-    margin-right: auto;
+
+header nav {
+    margin: 0 0 0 auto;
+    margin-right: 15px;
 }
 
-#exer3 {
-    background-color:brown;
-    width: 400px;
-    height: 200px;
+header nav ul {
     display: flex;
-    gap: 50px;
-    justify-content: space-around;
-    padding: 20px;
-
+    padding: 0;
+    margin: o;
+    list-style-type: none;
+    gap: 20px;
 }
 
-.bloco {
-    background: black;
-    width: 70px;
-    height: 70px;
+header nav ul li a  {
+    color: white;
+    padding-bottom: 7px;
 }
+
+.wrapper {
+        width: 1000px;
+        margin: 0 auto;
+}
+
+main.wrapper {  
+    margin: 20px auto
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.active{
+    border-bottom: 4px solid maroon;
+}
+
